@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF97A551EE8F4EA00F4CA88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF97A541EE8F4EA00F4CA88 /* AppDelegate.swift */; };
+		CEF97A571EE8F4EA00F4CA88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF97A561EE8F4EA00F4CA88 /* ViewController.swift */; };
+		CEF97A591EE8F4EA00F4CA88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF97A581EE8F4EA00F4CA88 /* Assets.xcassets */; };
+		CEF97A5C1EE8F4EA00F4CA88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF97A5A1EE8F4EA00F4CA88 /* Main.storyboard */; };
+		CEF97A671EE8F4EB00F4CA88 /* falock_sWinTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF97A661EE8F4EB00F4CA88 /* falock_sWinTestTests.swift */; };
+		CEF97A721EE8F4EB00F4CA88 /* falock_sWinTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF97A711EE8F4EB00F4CA88 /* falock_sWinTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF97A631EE8F4EB00F4CA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF97A491EE8F4EA00F4CA88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF97A501EE8F4EA00F4CA88;
+			remoteInfo = "falock'sWinTest";
+		};
+		CEF97A6E1EE8F4EB00F4CA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF97A491EE8F4EA00F4CA88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF97A501EE8F4EA00F4CA88;
+			remoteInfo = "falock'sWinTest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEF97A511EE8F4EA00F4CA88 /* falock'sWinTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "falock'sWinTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF97A541EE8F4EA00F4CA88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF97A561EE8F4EA00F4CA88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEF97A581EE8F4EA00F4CA88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF97A5B1EE8F4EA00F4CA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF97A5D1EE8F4EA00F4CA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF97A621EE8F4EB00F4CA88 /* falock'sWinTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "falock'sWinTestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF97A661EE8F4EB00F4CA88 /* falock_sWinTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = falock_sWinTestTests.swift; sourceTree = "<group>"; };
+		CEF97A681EE8F4EB00F4CA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF97A6D1EE8F4EB00F4CA88 /* falock'sWinTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "falock'sWinTestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF97A711EE8F4EB00F4CA88 /* falock_sWinTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = falock_sWinTestUITests.swift; sourceTree = "<group>"; };
+		CEF97A731EE8F4EB00F4CA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF97A4E1EE8F4EA00F4CA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF97A5F1EE8F4EB00F4CA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF97A6A1EE8F4EB00F4CA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF97A481EE8F4EA00F4CA88 = {
+			isa = PBXGroup;
+			children = (
+				CEF97A531EE8F4EA00F4CA88 /* falock'sWinTest */,
+				CEF97A651EE8F4EB00F4CA88 /* falock'sWinTestTests */,
+				CEF97A701EE8F4EB00F4CA88 /* falock'sWinTestUITests */,
+				CEF97A521EE8F4EA00F4CA88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF97A521EE8F4EA00F4CA88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF97A511EE8F4EA00F4CA88 /* falock'sWinTest.app */,
+				CEF97A621EE8F4EB00F4CA88 /* falock'sWinTestTests.xctest */,
+				CEF97A6D1EE8F4EB00F4CA88 /* falock'sWinTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF97A531EE8F4EA00F4CA88 /* falock'sWinTest */ = {
+			isa = PBXGroup;
+			children = (
+				CEF97A541EE8F4EA00F4CA88 /* AppDelegate.swift */,
+				CEF97A561EE8F4EA00F4CA88 /* ViewController.swift */,
+				CEF97A581EE8F4EA00F4CA88 /* Assets.xcassets */,
+				CEF97A5A1EE8F4EA00F4CA88 /* Main.storyboard */,
+				CEF97A5D1EE8F4EA00F4CA88 /* Info.plist */,
+			);
+			path = "falock'sWinTest";
+			sourceTree = "<group>";
+		};
+		CEF97A651EE8F4EB00F4CA88 /* falock'sWinTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF97A661EE8F4EB00F4CA88 /* falock_sWinTestTests.swift */,
+				CEF97A681EE8F4EB00F4CA88 /* Info.plist */,
+			);
+			path = "falock'sWinTestTests";
+			sourceTree = "<group>";
+		};
+		CEF97A701EE8F4EB00F4CA88 /* falock'sWinTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF97A711EE8F4EB00F4CA88 /* falock_sWinTestUITests.swift */,
+				CEF97A731EE8F4EB00F4CA88 /* Info.plist */,
+			);
+			path = "falock'sWinTestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF97A501EE8F4EA00F4CA88 /* falock'sWinTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF97A761EE8F4EB00F4CA88 /* Build configuration list for PBXNativeTarget "falock'sWinTest" */;
+			buildPhases = (
+				CEF97A4D1EE8F4EA00F4CA88 /* Sources */,
+				CEF97A4E1EE8F4EA00F4CA88 /* Frameworks */,
+				CEF97A4F1EE8F4EA00F4CA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "falock'sWinTest";
+			productName = "falock'sWinTest";
+			productReference = CEF97A511EE8F4EA00F4CA88 /* falock'sWinTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF97A611EE8F4EB00F4CA88 /* falock'sWinTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF97A791EE8F4EB00F4CA88 /* Build configuration list for PBXNativeTarget "falock'sWinTestTests" */;
+			buildPhases = (
+				CEF97A5E1EE8F4EB00F4CA88 /* Sources */,
+				CEF97A5F1EE8F4EB00F4CA88 /* Frameworks */,
+				CEF97A601EE8F4EB00F4CA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF97A641EE8F4EB00F4CA88 /* PBXTargetDependency */,
+			);
+			name = "falock'sWinTestTests";
+			productName = "falock'sWinTestTests";
+			productReference = CEF97A621EE8F4EB00F4CA88 /* falock'sWinTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF97A6C1EE8F4EB00F4CA88 /* falock'sWinTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF97A7C1EE8F4EB00F4CA88 /* Build configuration list for PBXNativeTarget "falock'sWinTestUITests" */;
+			buildPhases = (
+				CEF97A691EE8F4EB00F4CA88 /* Sources */,
+				CEF97A6A1EE8F4EB00F4CA88 /* Frameworks */,
+				CEF97A6B1EE8F4EB00F4CA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF97A6F1EE8F4EB00F4CA88 /* PBXTargetDependency */,
+			);
+			name = "falock'sWinTestUITests";
+			productName = "falock'sWinTestUITests";
+			productReference = CEF97A6D1EE8F4EB00F4CA88 /* falock'sWinTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF97A491EE8F4EA00F4CA88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEF97A501EE8F4EA00F4CA88 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C9FGPCC4D9;
+						ProvisioningStyle = Automatic;
+					};
+					CEF97A611EE8F4EB00F4CA88 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C9FGPCC4D9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEF97A501EE8F4EA00F4CA88;
+					};
+					CEF97A6C1EE8F4EB00F4CA88 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C9FGPCC4D9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEF97A501EE8F4EA00F4CA88;
+					};
+				};
+			};
+			buildConfigurationList = CEF97A4C1EE8F4EA00F4CA88 /* Build configuration list for PBXProject "falock'sWinTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF97A481EE8F4EA00F4CA88;
+			productRefGroup = CEF97A521EE8F4EA00F4CA88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF97A501EE8F4EA00F4CA88 /* falock'sWinTest */,
+				CEF97A611EE8F4EB00F4CA88 /* falock'sWinTestTests */,
+				CEF97A6C1EE8F4EB00F4CA88 /* falock'sWinTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF97A4F1EE8F4EA00F4CA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF97A591EE8F4EA00F4CA88 /* Assets.xcassets in Resources */,
+				CEF97A5C1EE8F4EA00F4CA88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF97A601EE8F4EB00F4CA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF97A6B1EE8F4EB00F4CA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF97A4D1EE8F4EA00F4CA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF97A571EE8F4EA00F4CA88 /* ViewController.swift in Sources */,
+				CEF97A551EE8F4EA00F4CA88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF97A5E1EE8F4EB00F4CA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF97A671EE8F4EB00F4CA88 /* falock_sWinTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF97A691EE8F4EB00F4CA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF97A721EE8F4EB00F4CA88 /* falock_sWinTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF97A641EE8F4EB00F4CA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF97A501EE8F4EA00F4CA88 /* falock'sWinTest */;
+			targetProxy = CEF97A631EE8F4EB00F4CA88 /* PBXContainerItemProxy */;
+		};
+		CEF97A6F1EE8F4EB00F4CA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF97A501EE8F4EA00F4CA88 /* falock'sWinTest */;
+			targetProxy = CEF97A6E1EE8F4EB00F4CA88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF97A5A1EE8F4EA00F4CA88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF97A5B1EE8F4EA00F4CA88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF97A741EE8F4EB00F4CA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF97A751EE8F4EB00F4CA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		CEF97A771EE8F4EB00F4CA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = "falock'sWinTest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1007.falock-sWinTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEF97A781EE8F4EB00F4CA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = "falock'sWinTest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1007.falock-sWinTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CEF97A7A1EE8F4EB00F4CA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = "falock'sWinTestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1007.falock-sWinTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/falock'sWinTest.app/Contents/MacOS/falock'sWinTest";
+			};
+			name = Debug;
+		};
+		CEF97A7B1EE8F4EB00F4CA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = "falock'sWinTestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1007.falock-sWinTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/falock'sWinTest.app/Contents/MacOS/falock'sWinTest";
+			};
+			name = Release;
+		};
+		CEF97A7D1EE8F4EB00F4CA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = "falock'sWinTestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1007.falock-sWinTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "falock'sWinTest";
+			};
+			name = Debug;
+		};
+		CEF97A7E1EE8F4EB00F4CA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = "falock'sWinTestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1007.falock-sWinTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "falock'sWinTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF97A4C1EE8F4EA00F4CA88 /* Build configuration list for PBXProject "falock'sWinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF97A741EE8F4EB00F4CA88 /* Debug */,
+				CEF97A751EE8F4EB00F4CA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF97A761EE8F4EB00F4CA88 /* Build configuration list for PBXNativeTarget "falock'sWinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF97A771EE8F4EB00F4CA88 /* Debug */,
+				CEF97A781EE8F4EB00F4CA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEF97A791EE8F4EB00F4CA88 /* Build configuration list for PBXNativeTarget "falock'sWinTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF97A7A1EE8F4EB00F4CA88 /* Debug */,
+				CEF97A7B1EE8F4EB00F4CA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEF97A7C1EE8F4EB00F4CA88 /* Build configuration list for PBXNativeTarget "falock'sWinTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF97A7D1EE8F4EB00F4CA88 /* Debug */,
+				CEF97A7E1EE8F4EB00F4CA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF97A491EE8F4EA00F4CA88 /* Project object */;
+}
